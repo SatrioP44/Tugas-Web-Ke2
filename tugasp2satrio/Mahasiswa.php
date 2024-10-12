@@ -6,7 +6,7 @@ class Mahasiswa{
     var int $umur;
     var String $alamat;
     
-    // Function contanct
+    // Function construct
     public function __construct(String $nim, String $nama, String $jns_kelamin, int $umur, String $alamat){
         $this->nim = $nim;
         $this->nama = $nama;
@@ -16,7 +16,7 @@ class Mahasiswa{
         
     }
 
-    // Function Info Mobil
+    // Function listMahasiswa
     public function listMahasiswa(){
         return "
         Nim             : $this->nim
